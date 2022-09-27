@@ -1,13 +1,12 @@
-
 import './App.css';
-import Display from './components/Display/Display';
-
-
+import Cosmetics from './components/Cosmetics/Cosmetics';
+import Shoes from './components/Shoes/Shoes';
 
 function App() {
   return (
-    <div className="App" style={{border: '3px solid green', margin:'5px'}}>
-     <Display name='steps'></Display>
+    <div >
+      <Cosmetics></Cosmetics>
+      <Shoes></Shoes>
     </div>
   );
 }
