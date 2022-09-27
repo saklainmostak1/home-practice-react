@@ -1,14 +1,13 @@
 
 import './App.css';
-import Device from './components/Device/Device';
-import Watch from './components/Watch/Watch';
+import Display from './components/Display/Display';
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Device name='uphone' price='15000'></Device>
-      <Watch></Watch>
+    <div className="App" style={{border: '3px solid green', margin:'5px'}}>
+     <Display name='steps'></Display>
     </div>
   );
 }
